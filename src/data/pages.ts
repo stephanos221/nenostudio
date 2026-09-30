@@ -1,0 +1,190 @@
+import type { PageMeta } from "./types";
+
+/** Head metadata for every route, keyed by pathname. */
+export const pages: Record<string, PageMeta> = {
+  "/": {
+    title: "Vantra Studio",
+    description: "Vantra is an independent design studio for brand identity, digital product, content and design systems. Nine years, 24 projects, one senior team. Open for Q1 2027.",
+    ogImage: "/assets/meta/meta-b631094b.avif",
+  },
+  "/401": {
+    title: "Protected page - Vantra",
+    description: "This page is password protected. Enter your access code to continue, or contact Vantra if you need a new one issued.",
+    ogImage: "/assets/meta/meta-b631094b.avif",
+  },
+  "/404": {
+    title: "Not Found - Vantra",
+    description: "The page you are looking for does not exist or has moved. Return to the Vantra homepage, browse selected work, or get in touch with the studio.",
+    ogImage: "/assets/meta/meta-b631094b.avif",
+  },
+  "/about-us": {
+    title: "About - Vantra Studio",
+    description: "An independent practice across Amsterdam and Lisbon since 2017. Six senior leads, 24 projects shipped, 34 awards, and the same team from first meeting to launch.",
+    ogImage: "/assets/meta/meta-b631094b.avif",
+  },
+  "/categories/brand-identity": {
+    title: "Brand identity - Vantra Studio",
+    description: "Naming, identity systems and the guidelines that keep them intact. Selected brand identity work from Vantra, measured a year after launch.",
+    ogImage: "/assets/meta/meta-50be8749.avif",
+    twitterImage: "/assets/meta/meta-50be8749.avif",
+  },
+  "/categories/content-motion": {
+    title: "Content & motion - Vantra Studio",
+    description: "Film, motion and campaign work made to hold attention. Selected content and motion projects from Vantra.",
+    ogImage: "/assets/meta/meta-478022c9.avif",
+    twitterImage: "/assets/meta/meta-478022c9.avif",
+  },
+  "/categories/design-systems": {
+    title: "Design systems - Vantra Studio",
+    description: "Token libraries and component sets built so a client team can keep shipping alone. Selected design systems work from Vantra.",
+    ogImage: "/assets/meta/meta-61412eec.avif",
+    twitterImage: "/assets/meta/meta-61412eec.avif",
+  },
+  "/categories/digital-product": {
+    title: "Digital product - Vantra Studio",
+    description: "Interfaces, apps and platforms designed with the teams who maintain them. Selected digital product work from Vantra.",
+    ogImage: "/assets/meta/meta-e9415c72.avif",
+    twitterImage: "/assets/meta/meta-e9415c72.avif",
+  },
+  "/categories/film-campaign": {
+    title: "Film & campaign - Vantra Studio",
+    description: "Long-form film and launch campaigns, from treatment to final cut. Selected film and campaign work from Vantra.",
+    ogImage: "/assets/meta/meta-f0b5e3d2.avif",
+    twitterImage: "/assets/meta/meta-f0b5e3d2.avif",
+  },
+  "/categories/packaging": {
+    title: "Packaging - Vantra Studio",
+    description: "Structural and print packaging designed for the shelf it lands on. Selected packaging work from Vantra.",
+    ogImage: "/assets/meta/meta-19291b79.avif",
+    twitterImage: "/assets/meta/meta-19291b79.avif",
+  },
+  "/changelog": {
+    title: "Change Log - Vantra Studio",
+    description: "Version history and release notes for the Vantra template. Track every update, fix and addition since the first release.",
+    ogImage: "/assets/meta/meta-b631094b.avif",
+    other: { "“robots”": "“noindex”" },
+  },
+  "/contact-us": {
+    title: "Contact - Vantra Studio",
+    description: "Start a project with Vantra. Studios in Amsterdam and Lisbon, two of four slots open for Q1 2027, and a reply from a senior lead within two working days.",
+    ogImage: "/assets/meta/meta-b631094b.avif",
+  },
+  "/journal": {
+    title: "Journal - Vantra Studio",
+    description: "Notes on brand systems, interface, practice and how an engagement runs, written by the senior leads doing the work rather than a marketing team.",
+    ogImage: "/assets/meta/meta-b631094b.avif",
+  },
+  "/journal-categories/brand-systems": {
+    title: "Brand systems - Vantra Studio",
+    description: "Notes on brand systems from Vantra: tokens, components, documentation, and what a system owes the team that inherits it.",
+    ogImage: "/assets/meta/meta-dad566e6.avif",
+    twitterImage: "/assets/meta/meta-dad566e6.avif",
+  },
+  "/journal-categories/interface": {
+    title: "Interface - Vantra Studio",
+    description: "Notes on interface design from Vantra: designing in the browser, working with engineers, and building products meant to last.",
+    ogImage: "/assets/meta/meta-c4a314ac.avif",
+    twitterImage: "/assets/meta/meta-c4a314ac.avif",
+  },
+  "/journal-categories/practice": {
+    title: "Practice - Vantra Studio",
+    description: "Notes on practice from Vantra: how projects are priced, sequenced and reviewed, written by the leads running them.",
+    ogImage: "/assets/meta/meta-3e3986bd.avif",
+    twitterImage: "/assets/meta/meta-3e3986bd.avif",
+  },
+  "/journal-categories/studio": {
+    title: "Studio - Vantra Studio",
+    description: "Notes from inside Vantra: how a working week is shaped, what craft time protects, and how the team is put together.",
+    ogImage: "/assets/meta/meta-9d9e5bcd.avif",
+    twitterImage: "/assets/meta/meta-9d9e5bcd.avif",
+  },
+  "/journal/designing-in-the-browser": {
+    title: "Designing in the browser - Vantra Studio",
+    description: "What changes when the mockup stops being the deliverable and every screen is reviewed in the browser with the engineers who ship it.",
+    ogImage: "/assets/meta/meta-1bf72ab9.avif",
+    twitterImage: "/assets/meta/meta-1bf72ab9.avif",
+  },
+  "/journal/inside-a-vantra-studio-week": {
+    title: "Inside a studio week - Vantra Studio",
+    description: "A working week inside Vantra: one meeting on Monday, three days of protected craft time, and what actually ships on a Friday.",
+    ogImage: "/assets/meta/meta-3f898a41.avif",
+    twitterImage: "/assets/meta/meta-3f898a41.avif",
+  },
+  "/journal/what-a-brand-system-owes-its-engineers": {
+    title: "What a brand system owes its engineers - Vantra Studio",
+    description: "A brand system is the set of decisions an engineer can act on without asking a designer. Tokens, components, and a handover that survives the first year.",
+    ogImage: "/assets/meta/meta-0e2e2129.avif",
+    twitterImage: "/assets/meta/meta-0e2e2129.avif",
+  },
+  "/journal/why-we-price-in-outcomes": {
+    title: "Why we price in outcomes, not hours - Vantra Studio",
+    description: "Fixed fees agreed per phase before the work starts, and why the hour is the wrong unit for design work that is meant to last.",
+    ogImage: "/assets/meta/meta-f4c9450a.avif",
+    twitterImage: "/assets/meta/meta-f4c9450a.avif",
+  },
+  "/licenses": {
+    title: "Licenses - Vantra Studio",
+    description: "All graphical assets in this template are licensed for personal and commercial use. Check licenses for images, fonts, icons, and template usage.",
+    ogImage: "/assets/meta/meta-b631094b.avif",
+    twitterImage: "/assets/meta/meta-b631094b.avif",
+    other: { "“robots”": "“noindex”" },
+  },
+  "/style-guide": {
+    title: "Style Guide - Vantra Studio",
+    description: "The type scale, colour tokens, spacing ramp, components and motion contract used throughout the Vantra template, shown on one page.",
+    ogImage: "/assets/meta/meta-b631094b.avif",
+  },
+  "/work": {
+    title: "Work - Vantra Studio",
+    description: "Selected work across brand identity, digital product, content and design systems. Eight case studies with the outcome measured a year or more after launch.",
+    ogImage: "/assets/meta/meta-b631094b.avif",
+  },
+  "/work/aurel": {
+    title: "Aurel Audio - Vantra Studio",
+    description: "Interface design and build support for AUREL+, designed next to the engineers who maintain it.",
+    ogImage: "/assets/meta/meta-61412eec.avif",
+    twitterImage: "/assets/meta/meta-61412eec.avif",
+  },
+  "/work/fold": {
+    title: "Fold Apparel - Vantra Studio",
+    description: "A design system and interface for FOLD+, built with their own engineers so the team ships without us.",
+    ogImage: "/assets/meta/meta-e965d4f8.avif",
+    twitterImage: "/assets/meta/meta-e965d4f8.avif",
+  },
+  "/work/halcyon-films": {
+    title: "Halcyon Films - Vantra Studio",
+    description: "Positioning, identity and interface for Halcyon Films, rebuilt in nine weeks and launched in three markets. Bookings up 38% a year on.",
+    ogImage: "/assets/meta/meta-f0b5e3d2.avif",
+    twitterImage: "/assets/meta/meta-f0b5e3d2.avif",
+  },
+  "/work/kin": {
+    title: "Kin Ceramics - Vantra Studio",
+    description: "A token library and component set for KIN®, documented and handed over so the client team keeps shipping alone.",
+    ogImage: "/assets/meta/meta-538f3946.avif",
+    twitterImage: "/assets/meta/meta-538f3946.avif",
+  },
+  "/work/luma": {
+    title: "Luma Collective - Vantra Studio",
+    description: "Campaign direction and motion for LUMA®, with the system and the assets coming from one team.",
+    ogImage: "/assets/meta/meta-478022c9.avif",
+    twitterImage: "/assets/meta/meta-478022c9.avif",
+  },
+  "/work/meridian": {
+    title: "Meridian Arts - Vantra Studio",
+    description: "Film and motion for MERIDIAN+, carried from treatment to final grade by the same team on set and in the edit.",
+    ogImage: "/assets/meta/meta-e9415c72.avif",
+    twitterImage: "/assets/meta/meta-e9415c72.avif",
+  },
+  "/work/northwind": {
+    title: "Northwind Outdoor - Vantra Studio",
+    description: "Naming, identity and guidelines for NORTHWIND, drawn around the positioning and built to survive the handover.",
+    ogImage: "/assets/meta/meta-50be8749.avif",
+    twitterImage: "/assets/meta/meta-50be8749.avif",
+  },
+  "/work/sable": {
+    title: "Sable Skincare - Vantra Studio",
+    description: "Packaging and art direction for SABLE+, from structure and material through to press supervision on the first run.",
+    ogImage: "/assets/meta/meta-19291b79.avif",
+    twitterImage: "/assets/meta/meta-19291b79.avif",
+  },
+};

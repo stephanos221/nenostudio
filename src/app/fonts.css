@@ -1,0 +1,11 @@
+/*
+ * Points the design tokens at the fonts loaded by next/font (see src/lib/fonts.ts).
+ * Imported after globals.css. That file declares the two tokens on :root and again on body
+ * inside its breakpoint media queries, so both selectors are overridden here; equal
+ * specificity and a later position in the cascade make these declarations win at every width.
+ */
+:root,
+body {
+  --typography-font-family-text: var(--font-text), sans-serif;
+  --typography-font-family-display: var(--font-display), sans-serif;
+}
